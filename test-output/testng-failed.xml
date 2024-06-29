@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="LoginPage(failed)">
+    <classes>
+      <class name="TestCases.LoginPageTC">
+        <methods>
+          <include name="URL"/>
+          <include name="homepage"/>
+        </methods>
+      </class> <!-- TestCases.LoginPageTC -->
+    </classes>
+  </test> <!-- LoginPage(failed) -->
+  <test parallel="none" name="SearchBar(failed)">
+    <classes>
+      <class name="TestCases.LoginPageTC">
+        <methods>
+          <include name="URL"/>
+        </methods>
+      </class> <!-- TestCases.LoginPageTC -->
+      <class name="TestCases.SearchBarTC">
+        <methods>
+          <include name="homepage"/>
+        </methods>
+      </class> <!-- TestCases.SearchBarTC -->
+    </classes>
+  </test> <!-- SearchBar(failed) -->
+</suite> <!-- Failed suite [Suite] -->
